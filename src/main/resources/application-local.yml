@@ -1,0 +1,11 @@
+spring:
+  ai:
+    ollama:
+      embedding:
+        model: nomic-embed-text
+      chat:
+        model: llama3.1
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
